@@ -1,4 +1,4 @@
-(function(d, logAllIds){
+;(function(d, logAllIds){
 	var allIds = d.querySelectorAll("*[id]"), 
 		domHasDuplicateIds = false;
 	for( var i = 0, l = allIds.length; i < l; i++){
